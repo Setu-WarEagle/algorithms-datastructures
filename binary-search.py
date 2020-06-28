@@ -1,6 +1,9 @@
 # Binary search Algorithm assuming that our given array is the sorted
 
+
 def binarySearch(ar, item):
+    ''' Binary Search algorithm with iterative solution'''
+
     lowPosition = 0
     highPosition = len(ar) - 1
     
