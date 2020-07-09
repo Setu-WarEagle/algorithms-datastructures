@@ -5,7 +5,7 @@ def quick(arr):
         return arr
     else:
         pivot = arr[0]
-        less = [i for i in arr[1:] if i <= pivot]
+        less = [i for i in arr[1:] if i <= pivot]  # Used list comprehension concept in python
         greater = [i for i in arr[1:] if i > pivot]
         return quick(less) + [pivot] + quick(greater)
   
