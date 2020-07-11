@@ -10,7 +10,7 @@ def binarySearch(ar, item):
     
     while(lowPosition<=highPosition):
         mid = int((lowPosition + highPosition)/2)
-        print(mid)
+        # print(mid)
         guess = ar[mid]
 
         if(guess == item):
@@ -26,6 +26,6 @@ def binarySearch(ar, item):
 
     return None
 
-binarySearch([1,2,5,6,7,8,9,10], 2)
+print(binarySearch([1,2,5,6,7,8,9,10], 2))
 
 
