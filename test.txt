@@ -1,3 +1,0 @@
- This is the test file.
-I have added this line in the local machine.
-
